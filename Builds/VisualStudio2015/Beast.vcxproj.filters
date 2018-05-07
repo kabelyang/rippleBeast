@@ -1,0 +1,993 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include=".">
+      <UniqueIdentifier>{B4CFBB41-DA25-70B1-E486-4F869E226E12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="beast">
+      <UniqueIdentifier>{6DD9EDCB-63DB-D377-3F12-12825FA8437E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="beast\core">
+      <UniqueIdentifier>{3CBEFECB-9A7C-B235-BA05-30D41AB8827D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="beast\core\detail">
+      <UniqueIdentifier>{79EFD023-52CA-3A59-E21D-E73328FA46EA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="beast\core\impl">
+      <UniqueIdentifier>{2A1F4F78-5521-936E-8CE2-BA798D578A14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="beast\http">
+      <UniqueIdentifier>{7138D215-DA65-98D5-EF7D-C9896685201E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="beast\http\detail">
+      <UniqueIdentifier>{3E84AA4C-CB48-99F0-EB35-5603FF633A51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="beast\http\impl">
+      <UniqueIdentifier>{932F732F-F09E-5C50-C8A1-D62342CCAA1F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="beast\websocket">
+      <UniqueIdentifier>{D05C2DB7-CE99-9326-23E6-4C7828632E0E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="beast\websocket\detail">
+      <UniqueIdentifier>{FB0BEDED-4C83-F0AF-0450-3DB01A05BD0B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="beast\websocket\impl">
+      <UniqueIdentifier>{A7FC9CC0-AB8D-4252-CCB2-B67F7BE99CF5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="beast\zlib">
+      <UniqueIdentifier>{9455431B-BD48-F8C8-B53B-D9BCAF355341}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="beast\zlib\detail">
+      <UniqueIdentifier>{508136FB-F124-7376-5A6F-F28EDEB18389}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="beast\zlib\impl">
+      <UniqueIdentifier>{F85F4A52-7A2A-700C-4804-97FFC11E99FD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ripple">
+      <UniqueIdentifier>{C99E2B0C-64FF-A4A9-6FCF-DF19BE8E4C66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ripple\beast">
+      <UniqueIdentifier>{B75D9C70-388A-3FA5-53E7-8F37FDF4704B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ripple\beast\asio">
+      <UniqueIdentifier>{18E2EE25-691B-C8C6-CE50-559012D120C5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ripple\beast\clock">
+      <UniqueIdentifier>{B19A7492-A21F-6398-8E2C-CB226DAB2AB5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ripple\beast\container">
+      <UniqueIdentifier>{55CEA641-A406-D50E-17E4-0617F38C4279}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ripple\beast\container\detail">
+      <UniqueIdentifier>{D17C7530-EB8E-2A5E-6900-050BBEAD7C9F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ripple\beast\core">
+      <UniqueIdentifier>{2878154F-A12B-FAF9-2731-F1E554045252}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ripple\beast\crypto">
+      <UniqueIdentifier>{FD4D1806-56C7-EFD3-8177-B77ECCB62673}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ripple\beast\crypto\detail">
+      <UniqueIdentifier>{D2FEF8DB-10F1-40FD-149C-2929726AB662}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ripple\beast\cxx17">
+      <UniqueIdentifier>{462217CD-F700-FBAF-6337-9B66824D1964}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ripple\beast\hash">
+      <UniqueIdentifier>{EFCF517A-692C-C748-5A6B-E7A80A245AE8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ripple\beast\hash\impl">
+      <UniqueIdentifier>{A434A188-4373-CE55-6995-BA4EC86D2125}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ripple\beast\hash\tests">
+      <UniqueIdentifier>{A0CD1F88-1FA8-FDBF-8C82-A5427B6E10AE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ripple\beast\insight">
+      <UniqueIdentifier>{1CB945B8-4655-2C56-1C03-24281400ABD8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ripple\beast\insight\impl">
+      <UniqueIdentifier>{061B26E1-FD5A-69B2-F70A-DC6B19CD7068}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ripple\beast\net">
+      <UniqueIdentifier>{4CC44F87-2E4D-81E7-CB8C-027C2928EC7D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ripple\beast\net\detail">
+      <UniqueIdentifier>{7A1954FE-9751-AE24-A1AF-C282F14B5757}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ripple\beast\net\impl">
+      <UniqueIdentifier>{38E875CA-FF93-DCC2-393B-1E2E128AD077}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ripple\beast\unity">
+      <UniqueIdentifier>{D7812F07-CB10-3361-544B-EB66B18F2D7F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ripple\beast\utility">
+      <UniqueIdentifier>{411729E2-D597-D511-9CCB-A9E0FF697232}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ripple\beast\utility\src">
+      <UniqueIdentifier>{C94B6C51-E253-633B-0AA8-8D18CD695D5E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test">
+      <UniqueIdentifier>{D5859751-012E-81F5-D121-159FE9A25436}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\beast">
+      <UniqueIdentifier>{8B0B95AC-5386-EE34-AA85-E1C7974E6E93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ripple\basics">
+      <UniqueIdentifier>{6e4c9d18-7fba-4806-b3dc-9130745d9205}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ripple\basics\impl">
+      <UniqueIdentifier>{be3e8fd2-766a-4c4c-b9ed-bc29ed0c942d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ripple\unity">
+      <UniqueIdentifier>{c97b4ac0-e298-4904-b232-1634f501fc9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ripple\app">
+      <UniqueIdentifier>{8d03ea6b-5a99-4c96-bd84-cc4cae20266e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ripple\app\main">
+      <UniqueIdentifier>{f5338817-4180-467f-8a1a-5916227ce7c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ripple\core">
+      <UniqueIdentifier>{2f8b6f88-92f8-4d2f-8e5e-9e4935d5bc1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\unit_test">
+      <UniqueIdentifier>{84e3d89d-3855-4e87-b91f-3c8430e55e33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ripple\app\examples">
+      <UniqueIdentifier>{41b9427c-23cf-4e66-8a03-1e33eafe56bf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\BeastConfig.h">
+      <Filter>.</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\config.hpp">
+      <Filter>beast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\core\async_result.hpp">
+      <Filter>beast\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\core\bind_handler.hpp">
+      <Filter>beast\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\core\buffered_read_stream.hpp">
+      <Filter>beast\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\core\buffer_cat.hpp">
+      <Filter>beast\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\core\buffer_prefix.hpp">
+      <Filter>beast\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\core\consuming_buffers.hpp">
+      <Filter>beast\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\core\detail\base64.hpp">
+      <Filter>beast\core\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\core\detail\bind_handler.hpp">
+      <Filter>beast\core\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\core\detail\buffers_ref.hpp">
+      <Filter>beast\core\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\core\detail\clamp.hpp">
+      <Filter>beast\core\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\core\detail\config.hpp">
+      <Filter>beast\core\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\core\detail\cpu_info.hpp">
+      <Filter>beast\core\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\core\detail\empty_base_optimization.hpp">
+      <Filter>beast\core\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\core\detail\integer_sequence.hpp">
+      <Filter>beast\core\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\core\detail\in_place_init.hpp">
+      <Filter>beast\core\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\core\detail\ostream.hpp">
+      <Filter>beast\core\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\core\detail\sha1.hpp">
+      <Filter>beast\core\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\core\detail\static_ostream.hpp">
+      <Filter>beast\core\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\core\detail\static_string.hpp">
+      <Filter>beast\core\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\core\detail\type_traits.hpp">
+      <Filter>beast\core\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\core\error.hpp">
+      <Filter>beast\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\core\file.hpp">
+      <Filter>beast\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\core\file_base.hpp">
+      <Filter>beast\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\core\file_posix.hpp">
+      <Filter>beast\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\core\file_stdio.hpp">
+      <Filter>beast\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\core\file_win32.hpp">
+      <Filter>beast\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\core\handler_alloc.hpp">
+      <Filter>beast\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\core\handler_ptr.hpp">
+      <Filter>beast\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\core\multi_buffer.hpp">
+      <Filter>beast\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\core\ostream.hpp">
+      <Filter>beast\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\core\read_size.hpp">
+      <Filter>beast\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\core\span.hpp">
+      <Filter>beast\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\core\static_buffer.hpp">
+      <Filter>beast\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\core\static_string.hpp">
+      <Filter>beast\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\core\string.hpp">
+      <Filter>beast\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\core\string_param.hpp">
+      <Filter>beast\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\core\type_traits.hpp">
+      <Filter>beast\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\http.hpp">
+      <Filter>beast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\http\basic_parser.hpp">
+      <Filter>beast\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\http\buffer_body.hpp">
+      <Filter>beast\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\http\detail\basic_parsed_list.hpp">
+      <Filter>beast\http\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\http\detail\basic_parser.hpp">
+      <Filter>beast\http\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\http\detail\chunk_encode.hpp">
+      <Filter>beast\http\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\http\detail\rfc7230.hpp">
+      <Filter>beast\http\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\http\detail\type_traits.hpp">
+      <Filter>beast\http\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\http\dynamic_body.hpp">
+      <Filter>beast\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\http\empty_body.hpp">
+      <Filter>beast\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\http\error.hpp">
+      <Filter>beast\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\http\field.hpp">
+      <Filter>beast\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\http\fields.hpp">
+      <Filter>beast\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\http\file_body.hpp">
+      <Filter>beast\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\http\message.hpp">
+      <Filter>beast\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\http\parser.hpp">
+      <Filter>beast\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\http\read.hpp">
+      <Filter>beast\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\http\rfc7230.hpp">
+      <Filter>beast\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\http\serializer.hpp">
+      <Filter>beast\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\http\span_body.hpp">
+      <Filter>beast\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\http\status.hpp">
+      <Filter>beast\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\http\string_body.hpp">
+      <Filter>beast\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\http\type_traits.hpp">
+      <Filter>beast\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\http\vector_body.hpp">
+      <Filter>beast\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\http\verb.hpp">
+      <Filter>beast\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\http\write.hpp">
+      <Filter>beast\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\version.hpp">
+      <Filter>beast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\websocket.hpp">
+      <Filter>beast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\websocket\detail\frame.hpp">
+      <Filter>beast\websocket\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\websocket\detail\hybi13.hpp">
+      <Filter>beast\websocket\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\websocket\detail\mask.hpp">
+      <Filter>beast\websocket\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\websocket\detail\pausation.hpp">
+      <Filter>beast\websocket\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\websocket\detail\pmd_extension.hpp">
+      <Filter>beast\websocket\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\websocket\detail\type_traits.hpp">
+      <Filter>beast\websocket\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\websocket\detail\utf8_checker.hpp">
+      <Filter>beast\websocket\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\websocket\error.hpp">
+      <Filter>beast\websocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\websocket\option.hpp">
+      <Filter>beast\websocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\websocket\rfc6455.hpp">
+      <Filter>beast\websocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\websocket\ssl.hpp">
+      <Filter>beast\websocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\websocket\stream.hpp">
+      <Filter>beast\websocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\websocket\teardown.hpp">
+      <Filter>beast\websocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\zlib\deflate_stream.hpp">
+      <Filter>beast\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\zlib\detail\bitstream.hpp">
+      <Filter>beast\zlib\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\zlib\detail\deflate_stream.hpp">
+      <Filter>beast\zlib\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\zlib\detail\inflate_stream.hpp">
+      <Filter>beast\zlib\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\zlib\detail\ranges.hpp">
+      <Filter>beast\zlib\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\zlib\detail\window.hpp">
+      <Filter>beast\zlib\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\zlib\error.hpp">
+      <Filter>beast\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\zlib\inflate_stream.hpp">
+      <Filter>beast\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\beast\include\beast\zlib\zlib.hpp">
+      <Filter>beast\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\beast\asio\io_latency_probe.h">
+      <Filter>ripple\beast\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\beast\asio\ssl_bundle.h">
+      <Filter>ripple\beast\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\beast\asio\ssl_error.h">
+      <Filter>ripple\beast\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\beast\clock\abstract_clock.h">
+      <Filter>ripple\beast\clock</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\beast\clock\basic_seconds_clock.h">
+      <Filter>ripple\beast\clock</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\beast\clock\chrono_util.h">
+      <Filter>ripple\beast\clock</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\beast\clock\manual_clock.h">
+      <Filter>ripple\beast\clock</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\beast\container\aged_container.h">
+      <Filter>ripple\beast\container</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\beast\container\aged_container_utility.h">
+      <Filter>ripple\beast\container</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\beast\container\aged_map.h">
+      <Filter>ripple\beast\container</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\beast\container\aged_multimap.h">
+      <Filter>ripple\beast\container</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\beast\container\aged_multiset.h">
+      <Filter>ripple\beast\container</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\beast\container\aged_set.h">
+      <Filter>ripple\beast\container</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\beast\container\aged_unordered_map.h">
+      <Filter>ripple\beast\container</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\beast\container\aged_unordered_multimap.h">
+      <Filter>ripple\beast\container</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\beast\container\aged_unordered_multiset.h">
+      <Filter>ripple\beast\container</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\beast\container\aged_unordered_set.h">
+      <Filter>ripple\beast\container</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\beast\container\detail\aged_associative_container.h">
+      <Filter>ripple\beast\container\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\beast\container\detail\aged_container_iterator.h">
+      <Filter>ripple\beast\container\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\beast\container\detail\aged_ordered_container.h">
+      <Filter>ripple\beast\container\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\beast\container\detail\aged_unordered_container.h">
+      <Filter>ripple\beast\container\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\beast\core\BasicNativeHeaders.h">
+      <Filter>ripple\beast\core</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\src\ripple\beast\core\bsd_SystemStats.cpp">
+      <Filter>ripple\beast\core</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\src\ripple\beast\core\ByteOrder.h">
+      <Filter>ripple\beast\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\beast\core\CompilerConfig.h">
+      <Filter>ripple\beast\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\beast\core\Config.h">
+      <Filter>ripple\beast\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\beast\core\ConfigCheck.h">
+      <Filter>ripple\beast\core</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\src\ripple\beast\core\core.unity.cpp">
+      <Filter>ripple\beast\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ripple\beast\core\CurrentThreadName.cpp">
+      <Filter>ripple\beast\core</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\src\ripple\beast\core\CurrentThreadName.h">
+      <Filter>ripple\beast\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\beast\core\LexicalCast.h">
+      <Filter>ripple\beast\core</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\src\ripple\beast\core\linux_SystemStats.cpp">
+      <Filter>ripple\beast\core</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\src\ripple\beast\core\List.h">
+      <Filter>ripple\beast\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\beast\core\LockFreeStack.h">
+      <Filter>ripple\beast\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\beast\core\Memory.h">
+      <Filter>ripple\beast\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\beast\core\osx_ObjCHelpers.h">
+      <Filter>ripple\beast\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\beast\core\PlatformConfig.h">
+      <Filter>ripple\beast\core</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\src\ripple\beast\core\SemanticVersion.cpp">
+      <Filter>ripple\beast\core</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\src\ripple\beast\core\SemanticVersion.h">
+      <Filter>ripple\beast\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\beast\core\SharedObject.h">
+      <Filter>ripple\beast\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\beast\core\SharedPtr.h">
+      <Filter>ripple\beast\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\beast\core\StandardConfig.h">
+      <Filter>ripple\beast\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\beast\core\StandardIncludes.h">
+      <Filter>ripple\beast\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\beast\core\SystemStats.h">
+      <Filter>ripple\beast\core</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\src\ripple\beast\core\WaitableEvent.cpp">
+      <Filter>ripple\beast\core</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\src\ripple\beast\core\WaitableEvent.h">
+      <Filter>ripple\beast\core</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\src\ripple\beast\core\win32_SystemStats.cpp">
+      <Filter>ripple\beast\core</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\src\ripple\beast\crypto\detail\mac_facade.h">
+      <Filter>ripple\beast\crypto\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\beast\crypto\detail\ripemd_context.h">
+      <Filter>ripple\beast\crypto\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\beast\crypto\detail\sha2_context.h">
+      <Filter>ripple\beast\crypto\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\beast\crypto\ripemd.h">
+      <Filter>ripple\beast\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\beast\crypto\secure_erase.h">
+      <Filter>ripple\beast\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\beast\crypto\sha2.h">
+      <Filter>ripple\beast\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\beast\cxx17\type_traits.h">
+      <Filter>ripple\beast\cxx17</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\beast\hash\endian.h">
+      <Filter>ripple\beast\hash</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\beast\hash\fnv1a.h">
+      <Filter>ripple\beast\hash</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\beast\hash\hash_append.h">
+      <Filter>ripple\beast\hash</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\src\ripple\beast\hash\impl\siphash.cpp">
+      <Filter>ripple\beast\hash\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ripple\beast\hash\impl\spookyv2.cpp">
+      <Filter>ripple\beast\hash\impl</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\src\ripple\beast\hash\impl\spookyv2.h">
+      <Filter>ripple\beast\hash\impl</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\src\ripple\beast\hash\impl\xxhash.c">
+      <Filter>ripple\beast\hash\impl</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\src\ripple\beast\hash\impl\xxhash.h">
+      <Filter>ripple\beast\hash\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\beast\hash\meta.h">
+      <Filter>ripple\beast\hash</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\beast\hash\siphash.h">
+      <Filter>ripple\beast\hash</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\beast\hash\spooky.h">
+      <Filter>ripple\beast\hash</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\beast\hash\tests\hash_metrics.h">
+      <Filter>ripple\beast\hash\tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\beast\hash\uhash.h">
+      <Filter>ripple\beast\hash</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\beast\hash\xxhasher.h">
+      <Filter>ripple\beast\hash</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\beast\insight\Base.h">
+      <Filter>ripple\beast\insight</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\beast\insight\BaseImpl.h">
+      <Filter>ripple\beast\insight</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\beast\insight\Collector.h">
+      <Filter>ripple\beast\insight</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\beast\insight\Counter.h">
+      <Filter>ripple\beast\insight</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\beast\insight\CounterImpl.h">
+      <Filter>ripple\beast\insight</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\beast\insight\Event.h">
+      <Filter>ripple\beast\insight</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\beast\insight\EventImpl.h">
+      <Filter>ripple\beast\insight</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\beast\insight\Gauge.h">
+      <Filter>ripple\beast\insight</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\beast\insight\GaugeImpl.h">
+      <Filter>ripple\beast\insight</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\beast\insight\Group.h">
+      <Filter>ripple\beast\insight</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\beast\insight\Groups.h">
+      <Filter>ripple\beast\insight</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\beast\insight\Hook.h">
+      <Filter>ripple\beast\insight</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\beast\insight\HookImpl.h">
+      <Filter>ripple\beast\insight</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\src\ripple\beast\insight\impl\Collector.cpp">
+      <Filter>ripple\beast\insight\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ripple\beast\insight\impl\Group.cpp">
+      <Filter>ripple\beast\insight\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ripple\beast\insight\impl\Groups.cpp">
+      <Filter>ripple\beast\insight\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ripple\beast\insight\impl\Hook.cpp">
+      <Filter>ripple\beast\insight\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ripple\beast\insight\impl\Metric.cpp">
+      <Filter>ripple\beast\insight\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ripple\beast\insight\impl\NullCollector.cpp">
+      <Filter>ripple\beast\insight\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ripple\beast\insight\impl\StatsDCollector.cpp">
+      <Filter>ripple\beast\insight\impl</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\src\ripple\beast\insight\Insight.h">
+      <Filter>ripple\beast\insight</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\beast\insight\Meter.h">
+      <Filter>ripple\beast\insight</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\beast\insight\MeterImpl.h">
+      <Filter>ripple\beast\insight</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\beast\insight\NullCollector.h">
+      <Filter>ripple\beast\insight</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\beast\insight\StatsDCollector.h">
+      <Filter>ripple\beast\insight</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\beast\net\detail\Parse.h">
+      <Filter>ripple\beast\net\detail</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\src\ripple\beast\net\impl\IPAddressConversion.cpp">
+      <Filter>ripple\beast\net\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ripple\beast\net\impl\IPAddressV4.cpp">
+      <Filter>ripple\beast\net\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ripple\beast\net\impl\IPAddressV6.cpp">
+      <Filter>ripple\beast\net\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ripple\beast\net\impl\IPEndpoint.cpp">
+      <Filter>ripple\beast\net\impl</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\src\ripple\beast\net\IPAddress.h">
+      <Filter>ripple\beast\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\beast\net\IPAddressConversion.h">
+      <Filter>ripple\beast\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\beast\net\IPAddressV4.h">
+      <Filter>ripple\beast\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\beast\net\IPAddressV6.h">
+      <Filter>ripple\beast\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\beast\net\IPEndpoint.h">
+      <Filter>ripple\beast\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\beast\rfc2616.h">
+      <Filter>ripple\beast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\beast\type_name.h">
+      <Filter>ripple\beast</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\src\ripple\beast\unity\beast_hash_unity.cpp">
+      <Filter>ripple\beast\unity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ripple\beast\unity\beast_insight_unity.cpp">
+      <Filter>ripple\beast\unity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ripple\beast\unity\beast_net_unity.cpp">
+      <Filter>ripple\beast\unity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ripple\beast\unity\beast_utility_unity.cpp">
+      <Filter>ripple\beast\unity</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\src\ripple\beast\unit_test.h">
+      <Filter>ripple\beast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\beast\utility\Debug.h">
+      <Filter>ripple\beast\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\beast\utility\Journal.h">
+      <Filter>ripple\beast\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\beast\utility\maybe_const.h">
+      <Filter>ripple\beast\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\beast\utility\PropertyStream.h">
+      <Filter>ripple\beast\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\beast\utility\rngfill.h">
+      <Filter>ripple\beast\utility</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\src\ripple\beast\utility\src\beast_Debug.cpp">
+      <Filter>ripple\beast\utility\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ripple\beast\utility\src\beast_Journal.cpp">
+      <Filter>ripple\beast\utility\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ripple\beast\utility\src\beast_PropertyStream.cpp">
+      <Filter>ripple\beast\utility\src</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\src\ripple\beast\utility\temp_dir.h">
+      <Filter>ripple\beast\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\beast\utility\weak_fn.h">
+      <Filter>ripple\beast\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\beast\utility\WrappedSink.h">
+      <Filter>ripple\beast\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\beast\utility\Zero.h">
+      <Filter>ripple\beast\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\beast\xor_shift_engine.h">
+      <Filter>ripple\beast</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\src\test\beast\beast_abstract_clock_test.cpp">
+      <Filter>test\beast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\test\beast\beast_asio_error_test.cpp">
+      <Filter>test\beast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\test\beast\beast_basic_seconds_clock_test.cpp">
+      <Filter>test\beast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\test\beast\beast_CurrentThreadName_test.cpp">
+      <Filter>test\beast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\test\beast\beast_Debug_test.cpp">
+      <Filter>test\beast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\test\beast\beast_Journal_test.cpp">
+      <Filter>test\beast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\test\beast\beast_PropertyStream_test.cpp">
+      <Filter>test\beast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\test\beast\beast_weak_fn_test.cpp">
+      <Filter>test\beast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\test\beast\beast_Zero_test.cpp">
+      <Filter>test\beast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\test\beast\define_print.cpp">
+      <Filter>test\beast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\test\beast\hash_append_test.cpp">
+      <Filter>test\beast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\test\beast\hash_speed_test.cpp">
+      <Filter>test\beast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\test\beast\IPEndpoint_test.cpp">
+      <Filter>test\beast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\test\beast\LexicalCast_test.cpp">
+      <Filter>test\beast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\test\beast\SemanticVersion_test.cpp">
+      <Filter>test\beast</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\src\test\csf.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\test\jtx.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\basics\base_uint.h">
+      <Filter>ripple\basics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\basics\BasicConfig.h">
+      <Filter>ripple\basics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\basics\Blob.h">
+      <Filter>ripple\basics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\basics\Buffer.h">
+      <Filter>ripple\basics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\basics\ByteOrder.h">
+      <Filter>ripple\basics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\basics\CheckLibraryVersions.h">
+      <Filter>ripple\basics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\basics\chrono.h">
+      <Filter>ripple\basics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\basics\contract.h">
+      <Filter>ripple\basics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\basics\CountedObject.h">
+      <Filter>ripple\basics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\basics\DecayingSample.h">
+      <Filter>ripple\basics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\basics\hardened_hash.h">
+      <Filter>ripple\basics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\basics\KeyCache.h">
+      <Filter>ripple\basics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\basics\LocalValue.h">
+      <Filter>ripple\basics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\basics\Log.h">
+      <Filter>ripple\basics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\basics\make_lock.h">
+      <Filter>ripple\basics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\basics\make_SSLContext.h">
+      <Filter>ripple\basics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\basics\mulDiv.h">
+      <Filter>ripple\basics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\basics\qalloc.h">
+      <Filter>ripple\basics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\basics\random.h">
+      <Filter>ripple\basics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\basics\RangeSet.h">
+      <Filter>ripple\basics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\basics\Resolver.h">
+      <Filter>ripple\basics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\basics\ResolverAsio.h">
+      <Filter>ripple\basics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\basics\ScopedLock.h">
+      <Filter>ripple\basics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\basics\Slice.h">
+      <Filter>ripple\basics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\basics\strHex.h">
+      <Filter>ripple\basics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\basics\StringUtilities.h">
+      <Filter>ripple\basics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\basics\Sustain.h">
+      <Filter>ripple\basics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\basics\tagged_integer.h">
+      <Filter>ripple\basics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\basics\TaggedCache.h">
+      <Filter>ripple\basics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\basics\ToString.h">
+      <Filter>ripple\basics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\basics\UnorderedContainers.h">
+      <Filter>ripple\basics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\basics\UptimeTimer.h">
+      <Filter>ripple\basics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\basics\win32_workaround.h">
+      <Filter>ripple\basics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ripple\basics\impl\CheckLibraryVersionsImpl.h">
+      <Filter>ripple\basics\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\test\unit_test\multi_runner.h">
+      <Filter>test\unit_test</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\ripple\basics\impl\BasicConfig.cpp">
+      <Filter>ripple\basics\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ripple\basics\impl\CheckLibraryVersions.cpp">
+      <Filter>ripple\basics\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ripple\basics\impl\contract.cpp">
+      <Filter>ripple\basics\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ripple\basics\impl\CountedObject.cpp">
+      <Filter>ripple\basics\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ripple\basics\impl\Log.cpp">
+      <Filter>ripple\basics\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ripple\basics\impl\make_SSLContext.cpp">
+      <Filter>ripple\basics\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ripple\basics\impl\mulDiv.cpp">
+      <Filter>ripple\basics\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ripple\basics\impl\ResolverAsio.cpp">
+      <Filter>ripple\basics\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ripple\basics\impl\strHex.cpp">
+      <Filter>ripple\basics\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ripple\basics\impl\StringUtilities.cpp">
+      <Filter>ripple\basics\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ripple\basics\impl\Sustain.cpp">
+      <Filter>ripple\basics\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ripple\basics\impl\Time.cpp">
+      <Filter>ripple\basics\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ripple\basics\impl\UptimeTimer.cpp">
+      <Filter>ripple\basics\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ripple\unity\beast.cpp">
+      <Filter>ripple\unity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ripple\app\main\Main.cpp">
+      <Filter>ripple\app\main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ripple\core\impl\TerminateHandler.cpp">
+      <Filter>ripple\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\test\unit_test\multi_runner.cpp">
+      <Filter>test\unit_test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ripple\app\examples\httpget.cpp">
+      <Filter>ripple\app\examples</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ripple\app\examples\websocket_client_sync.cpp">
+      <Filter>ripple\app\examples</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
